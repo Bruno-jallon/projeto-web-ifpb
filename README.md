@@ -1,2 +1,4 @@
 # projeto-web-ifpb
 Este repositório contém um projeto web usando Node.js, HTML, JavaScript, CSS, SQLite, Bootstrap e jQuery. Ele oferece uma solução eficiente e intuitiva para o usuário final, combinando tecnologias modernas e avançadas.
+
+Este repositório contém o código fonte para um projeto de desenvolvimento web que utiliza a tecnologia Node.js como plataforma de backend, juntamente com HTML, JavaScript e CSS para a camada de front-end. O projeto também utiliza o banco de dados SQLite para armazenamento de dados, o framework Bootstrap para estilização de interface e a biblioteca jQuery para adicionar interatividade e efeitos dinâmicos à página. O objetivo deste projeto é fornecer uma solução eficiente e intuitiva para o usuário final, os que possuem Discromatopsia, através da combinação de tecnologias modernas e avançadas.
