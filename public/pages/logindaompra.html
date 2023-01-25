@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Página de Login</title>
+    <link rel="icon" href="Clínica_Oftalmológica_Logo2-removebg-preview.png" type="image icon type">
+    <link rel='stylesheet' href='logindacompra.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <!-- O código fornecido é um documento HTML para uma página de login de um website. O documento usa a declaração <!DOCTYPE> para especificar que está escrito em HTML5 e as tags <html> e <head> para definir a estrutura da página. Dentro da tag <head> há várias tags meta que fornecem informações sobre o documento, como o conjunto de caracteres sendo usado e as configurações de visualização. Além disso, ele está usando Bootstrap e jQuery para lidar com o design e funcionalidade.
+
+    A tag <title> define o título da página, que aparece na guia ou barra de título do navegador. Há também vários links para arquivos CSS e JavaScript, incluindo arquivos CSS e JavaScript do Bootstrap, que são usados para estilizar e adicionar funcionalidade à página.
+
+    A tag <body> contém o conteúdo da página, que inclui um título, um container e um formulário de login. O container é dividido em várias seções e o formulário inclui campos de entrada para o e-mail e senha do usuário, uma caixa de seleção "lembrar-me" e um botão de envio. O formulário está configurado para usar o método post e a ação está configurada para "/logar", que se refere a um script do lado do servidor que irá lidar com a submissão do formulário. Por fim, há um script chamando uma função "login()" que provavelmente lida com a submissão do formulário. -->
+    <div1>
+        <h1 class="text-center pt-5"> Faça login e conheça mais sobre nosso projeto!</h1>
+        <div class="container">
+            <div id="login-row">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                        <form action="/logar" method="post" id="login-form" class="form">
+                            <div class="form-group">
+                                <label for="username">Email</label>
+                                <input id="username" class="form-control" type="username" name="username"
+                                    placeholder="digite seu email" required>
+                                <br>
+                                <label for="password">Senha</label>
+                                <input id="password" class="form-control" type="password" placeholder="digite sua senha"
+                                    required></input>
+                                <br>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-mod-6">
+                                            <label2 for="remember-me">
+                                                <span>
+                                                    Lembre-me
+                                                </span>
+                                                <span>
+                                                    <input type="radio" name="remember-me" id="remember-me">
+                                                </span>
+                                            </label2>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        </div>
+                                    </div>
+                                    <input onclick="login()" value="Registre-se" name="submit"
+                                        class="btn btn-info btn-md mt-3" type="button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>

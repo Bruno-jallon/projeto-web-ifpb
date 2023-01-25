@@ -1,0 +1,82 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  border-top: 40px;
+  margin-top: 40px;
+  background: url('Doenças\ no\ organismo\ humano.png') no-repeat;
+  background-color: rgb(250, 248, 245);
+}
+
+div {
+
+  position: relative;
+  background-color: rgb(218, 218, 218);
+  top: 50%;
+  left: 50%;
+  padding: 5px;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+button {
+  background-color: rgb(241, 241, 242);
+  border: none;
+  margin-left: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+h1 {
+  padding-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+  padding: 10x;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 120px;
+  margin-top: 5%;
+}
+
+h2 {
+  font-size: 50px;
+  padding: 30px;
+}
+
+p {
+  margin-left: 60px;
+
+}
+
+h3 {
+
+  padding: 60px;
+  font-size: 40px;
+
+}
+
+img {
+  width: 600px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 200px;
+
+}
+
+figcaption {
+  align-items: center;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(81, 173, 230);
+}
